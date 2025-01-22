@@ -1,0 +1,76 @@
+/* [project]/app/globals.css [app-client] (css) */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px #007bff80;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+@media (width <= 600px) {
+  form {
+    width: 90%;
+    padding: 15px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=app_globals_b52d8e.css.map*/
