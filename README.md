@@ -1,4 +1,3 @@
-````markdown
 # Task Manager
 
 A simple Task Manager web application built with **Flask** for the backend and **React.js** with **Next.js** for the frontend. The application allows users to manage tasks, set priorities, and organize their work efficiently.
@@ -38,7 +37,6 @@ A simple Task Manager web application built with **Flask** for the backend and *
    git clone https://github.com/IsmailMabrouki/task-manager.git
    cd task-manager
    ```
-````
 
 2. Set up a virtual environment:
 
